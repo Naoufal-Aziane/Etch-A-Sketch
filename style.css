@@ -9,9 +9,9 @@ html {
 
 .container{
   background-color: #CA1619;
-  max-width: 108rem;
+  max-width: 60rem;
   margin: 1rem auto;
-  padding: 2rem;
+  padding: 2rem 1rem;
 }
 h1{
   color: #fff;
