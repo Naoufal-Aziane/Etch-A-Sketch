@@ -25,6 +25,9 @@ h1{
   background-color: #aa9f9f;
   margin: 1rem auto;
 }
+.grid-container > div {
+  border: 1px solid gray;
+} 
 .tools {
   display: flex;
   justify-content: space-around;
