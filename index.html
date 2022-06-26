@@ -8,6 +8,34 @@
     <title>Etch A Sketch</title>
   </head>
   <body>
+    <div class="container">
+      <h1>Etch A Sketch</h1>
+      <div class="grid-container"></div>
+      <div class="tools">
+        <div class="grid-changer">
+          <label for="input-range" class="label-range"
+            ><span class="range-num">16</span> X
+            <span class="range-num">16</span></label
+          >
+          <input
+            type="range"
+            min="16"
+            value="16"
+            title="1"
+            max="100"
+            id="input-range"
+            class="input-range"
+          />
+        </div>
+        <div class="color-picker-container">
+          <label for="color-picker" class="color-picker-label"
+            >Pick a color:
+          </label>
+          <input type="color" id="color-picker" class="color-picker" />
+        </div>
+      </div>
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>
